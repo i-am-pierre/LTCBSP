@@ -5,7 +5,6 @@ def honi_count(word:str):
     has_h = False
     has_o = False
     has_n = False
-    has_i = False
     for char in word:
         if char == 'H':
             has_h = True
@@ -18,7 +17,6 @@ def honi_count(word:str):
             has_h = False
             has_o = False
             has_n = False
-            has_i = False
     return count
 
 result = honi_count(test_word)
