@@ -1,0 +1,6 @@
+X
+4
+A X
+B X
+X A
+D A
