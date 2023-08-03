@@ -4,7 +4,7 @@ string_index = 0
 
 while string_index < nb_lines:
     string = input()
-    encoded_string = ''
+    encoded_str = ''
     counter = 1
     current_char = string[0]
     for char in string[1:]:
@@ -12,9 +12,9 @@ while string_index < nb_lines:
         if current_char == next_char:
             counter = counter + 1
         else:
-            encoded_string = encoded_string + ' ' + str(counter) + ' ' + current_char
+            encoded_str = encoded_str + ' ' + str(counter) + ' ' + current_char
             current_char = next_char
             counter = 1
-    encoded_string = encoded_string + ' ' + str(counter) + ' ' + current_char
-    print(encoded_string)
+    encoded_str = encoded_str + ' ' + str(counter) + ' ' + current_char
+    print(encoded_str)
     string_index = string_index + 1
