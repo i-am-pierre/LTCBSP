@@ -8,7 +8,7 @@ for dataset in range(10):
     m_value = int(nmd_list[1])
     d_value = int(nmd_list[2])
 
-    # Getting second line of data into a list
+    # Getting second line of data into a list of integers
     event_str = input()
     event_list = list(map(int, event_str.split()))
     # print(event_list)
